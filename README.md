@@ -1113,7 +1113,7 @@ Note: Test cases TC1 to TC10 covers all identified equivalence classes.<br>
 
 1. Convert the Java code comprising the beginning of the doGraham method into a control flow graph(CFG).
     
-    ![image](https://user-images.githubusercontent.com/75557009/231730370-c1898df9-d977-44a5-8eac-a6bf131824ff.png)
+    ![l](https://user-images.githubusercontent.com/124347145/232831029-453aeae4-eaf8-4ffb-8fcf-31fade881ea7.jpg)
 
 
 2. Construct test sets for your flow graph that are adequate for the following criteria:<br>
@@ -1123,32 +1123,35 @@ c. Basic Condition Coverage.<br>
 
 a. Statement Coverage:
     
-| `Test Case` | `Condition` | `Input`
-| --------- | ------ | ------
-| 1 | Empty Vector | p=[] 
-| 2 | Vector with one point | p=[(1,1)]
-| 3 | Vector with two points with same y co-ordinate | p=[(1,1),(2,1)]
-| 4 | Vector with two points with different y co-ordinate | p=[(1,1),(1,2)]
-| 5 | Vector with three Points | p=[(1,1),(2,2),(3,3)]   
+| `Test Case` | `Condition` |
+| --------- | ------ | 
+| 1 | p is an empty vectorr |
+| 2 | p is a vector with one point | 
+| 3 | p is a vector with two points having same y componente | 
+| 4 | p is a vector with two points having different y components | 
+| 5 | p is a vector with three or more different points with different points with same y components |  
+| 6 | P is a vector with three or more different points with different points with different y components|
 
 b. Branch Coverage:
     
-| `Test Case` | `Condition` | `Input`
-| --------- | --------- | ---
-| 1 | Empty Vector | p=[]
-| 2 | Vector with one point | p=[(2,2)]
-| 3 | Vector with two points having same y co-ordinate | p=[(1,1),(2,1)]
-| 4 | Vector with two points having different y co-ordinate | p=[(1,1),(1,2)]
-| 5 | Vector with three or more point with some have same y co-ordinate and some have same x co-ordinate | p=[(1,1),(1,2),(2,1),(3,2)]
-| 6 | Vector with three or more point with different y co-ordinate and different x co-ordinate | p=[(1,1),(2,2),(3,3),(4,4)]
+| `Test Case` | `Condition` |
+| --------- | ------ | 
+| 1 | p is an empty vectorr |
+| 2 | p is a vector with one point | 
+| 3 | p is a vector with two points having same y componente | 
+| 4 | p is a vector with two points having different y components | 
+| 5 | p is a vector with three or more different points with different points with same y components and with same x components |  
+| 6 | p is a vector with three or more different points with different points with different y components and with same x components|
+| 7 | P is a vector with three or more points with the same x and y components |
 
 c. Basic condition Coverage:
     
-| `Test Case` | `Condition` | `Input`
-| --------- | ---------- | ------
-| 1 | Empty Vector | p=[]
-| 2 | Vector with one point | p=[(2,2)]
-| 3 | Vector with two points having same y co-ordinate | p=[(1,1),(2,1)]
-| 4 | Vector with two points having different y co-ordinate | p=[(1,1),(1,2)]
-| 5 | Vector with three or more point with some have same y co-ordinate and some have same x co-ordinate | p=[(1,1),(1,2),(2,1),(3,2)]
-| 6 | Vector with three or more point with different y co-ordinate and different x co-ordinate | p=[(1,1),(2,3),(3,2),(4,5)]
+| `Test Case` | `Condition` |
+| --------- | ------ | 
+| 1 | p is an empty vectorr |
+| 2 | p is a vector with one point | 
+| 3 | p is a vector with two points having same y componente | 
+| 4 | p is a vector with two points having different y components | 
+| 5 | p is a vector with three or more different points with different points with same y components and with same x components |  
+| 6 | p is a vector with three or more different points with different points with different y components and with same x components|
+| 7 | P is a vector with three or more points with the same x and y components |
